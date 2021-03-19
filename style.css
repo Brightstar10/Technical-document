@@ -1,0 +1,33 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+  }
+  
+  @media screen and (max-width: 600px){
+    
+    p {
+      width: 100%;
+      
+    }
+  }
+  
+  #navbar {
+    width: 100%;
+    position: fixed;
+    height: 100%;
+    
+  }
+  
+  #navbar ul {
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+    margin-top: 20px;
+  }
+  p{
+    margin-top: 50px;
+  }
+  .main-section >header {
+     margin-top: 50px;
+  }
